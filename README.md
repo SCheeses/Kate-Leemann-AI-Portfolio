@@ -12,6 +12,8 @@ I use this portfolio to document my progression from pixel-level image processin
 - NumPy, OpenCV, Pillow, and Matplotlib
 - Scikit-learn support vector machines
 - PyTorch neural networks and TorchVision data pipelines
+- Ultralytics YOLO11 object detection and instance segmentation
+- SAM 2 prompt-based segmentation
 - TensorFlow/Keras dataset utilities
 - Image preprocessing, feature extraction, and augmentation concepts
 - Model training, classification reports, confusion matrices, and error analysis
@@ -30,6 +32,7 @@ This course portfolio moves from digital-image fundamentals through image classi
 | [L03 Using Classic ML in Computer Vision](Computer-Vision-ITAI1378/Projects/L03-Using-Classic-ML-in-Computer-Vision/) | Classical image classification using grayscale pixels and a linear SVM | 54.7% accuracy on 3,000 held-out images; ship recall 68% |
 | [L04 Chihuahua or Muffin](Computer-Vision-ITAI1378/Projects/L04-Chihuahua-or-Muffin/) | PyTorch data pipeline and multilayer perceptron | 86.67% validation accuracy on 30 images after three epochs |
 | [L05 Chihuahua or Muffin with CNN](Computer-Vision-ITAI1378/Projects/L05-Chihuahua-or-Muffin-with-CNN/) | Convolutional image classification with augmentation | 96.67% validation accuracy on 30 images after ten epochs |
+| [L06 Object Detection using Transfer learning](Computer-Vision-ITAI1378/Projects/L06-Object-Detection-using-Transfer-Learning/) | YOLO11 detection, YOLO11-seg, SAM 2, and evaluation trade-offs | Detected a dog and person in an original photograph; produced a 71% confidence dog mask |
 | [Midterm: Final Project Proposal](Computer-Vision-ITAI1378/Capstone-Concept/Midterm-Final-Project-Proposal/) | Proposed YOLO11/YOLO11-seg assistant for staged laboratory rack checks | Proposal for a privacy-conscious laboratory QA workflow |
 
 See the [ITAI 1378 course overview](Computer-Vision-ITAI1378/) for the full learning sequence and [supplemental work](Computer-Vision-ITAI1378/Supplemental-Work/) for research and design assignments.
@@ -45,7 +48,8 @@ See the [ITAI 1378 course overview](Computer-Vision-ITAI1378/) for the full lear
 |   |   |-- L02-Image-Processing-Fundamentals/
 |   |   |-- L03-Using-Classic-ML-in-Computer-Vision/
 |   |   |-- L04-Chihuahua-or-Muffin/
-|   |   `-- L05-Chihuahua-or-Muffin-with-CNN/
+|   |   |-- L05-Chihuahua-or-Muffin-with-CNN/
+|   |   `-- L06-Object-Detection-using-Transfer-Learning/
 |   |-- Capstone-Concept/
 |   |   `-- Midterm-Final-Project-Proposal/
 |   `-- Supplemental-Work/

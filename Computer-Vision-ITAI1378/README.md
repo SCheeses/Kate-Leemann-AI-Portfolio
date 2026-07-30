@@ -15,6 +15,7 @@ In ITAI 1378, I developed the foundations needed to represent, process, classify
 | L03 Using Classic ML in Computer Vision | [Executed project](Projects/L03-Using-Classic-ML-in-Computer-Vision/) |
 | L04 Chihuahua or Muffin | [Executed project](Projects/L04-Chihuahua-or-Muffin/) |
 | L05 Chihuahua or Muffin with CNN | [Executed project](Projects/L05-Chihuahua-or-Muffin-with-CNN/) |
+| L06 Object Detection using Transfer learning | [Executed project](Projects/L06-Object-Detection-using-Transfer-Learning/) |
 | Midterm: Final Project Proposal | [LabRack Vision QA proposal](Capstone-Concept/Midterm-Final-Project-Proposal/) |
 | Course Portfolio | This repository |
 
@@ -26,7 +27,8 @@ In ITAI 1378, I developed the foundations needed to represent, process, classify
 4. **Classical classification** - I trained a linear SVM on a three-class CIFAR-10 subset and analyzed its confusion matrix.
 5. **Neural networks** - I built and trained a PyTorch multilayer perceptron for the Chihuahua-versus-muffin task.
 6. **Convolutional neural networks** - I replaced flattened pixels with learned spatial features and compared the CNN with my earlier model.
-7. **Applied project design** - My teammate and I proposed a privacy-conscious laboratory rack inspection assistant using object detection and instance segmentation.
+7. **Detection and segmentation** - I compared YOLO11 boxes, YOLO11-seg masks, confidence thresholds, and SAM 2 on sample and original images.
+8. **Applied project design** - My teammate and I proposed a privacy-conscious laboratory rack inspection assistant using object detection and instance segmentation.
 
 ## Completed Projects
 
@@ -45,6 +47,10 @@ I trained a PyTorch multilayer perceptron on 120 images and evaluated it on 30 v
 ### [L05 Chihuahua or Muffin with CNN](Projects/L05-Chihuahua-or-Muffin-with-CNN/)
 
 I built a three-block convolutional neural network with data augmentation and compared it with my L04 multilayer perceptron. My saved run reached 96.67% validation accuracy, or 29 correct predictions out of 30.
+
+### [L06 Object Detection using Transfer learning](Projects/L06-Object-Detection-using-Transfer-Learning/)
+
+I ran YOLO11 detection, YOLO11-seg instance segmentation, and a YOLO-to-SAM 2 pipeline. On my original photograph, the detector found the foreground dog and a partially visible person, while the segmenter produced one tighter dog mask and exposed the limitations of fixed-category pretrained models in a crowded scene.
 
 ## Capstone Concept
 
