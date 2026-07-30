@@ -4,7 +4,7 @@
 
 I am an Applied AI and Robotics student at Houston Community College with a professional background in genetics research. My interests center on computer vision, biological and laboratory applications of AI, reproducible experimentation, and responsible evaluation in high-consequence settings.
 
-I use this portfolio to document my progression from pixel-level image processing to classical machine learning and neural-network image classification. For each completed project, I include my executed Jupyter notebook, documentation, dependencies, saved results, and accompanying report.
+I use this portfolio to document my progression from pixel-level image processing to classical machine learning and neural-network image classification. For each completed lab, I include my executed Jupyter notebook, documentation, dependencies, saved results, and accompanying report.
 
 ## Technical Skills
 
@@ -24,12 +24,13 @@ I use this portfolio to document my progression from pixel-level image processin
 
 This course portfolio moves from digital-image fundamentals through image classification and a proposed laboratory vision system.
 
-| Project | Focus | Result |
+| Gradebook assignment | Focus | Result |
 | --- | --- | --- |
-| [Image Processing Fundamentals](Computer-Vision-ITAI1378/Projects/01-Image-Processing-Fundamentals/) | Pixel matrices, color channels, convolution, histograms, transformations, and quantitative experiments | Executed notebook with 11 visual outputs and three personal experiments |
-| [CIFAR-10 SVM Classifier](Computer-Vision-ITAI1378/Projects/02-CIFAR10-SVM-Classifier/) | Classical image classification using grayscale pixels and a linear SVM | 54.7% accuracy on 3,000 held-out images; ship recall 68% |
-| [Chihuahua or Muffin Neural Network](Computer-Vision-ITAI1378/Projects/03-Chihuahua-Muffin-Neural-Network/) | PyTorch data pipeline and multilayer perceptron | 86.67% validation accuracy on 30 images after three epochs |
-| [LabRack Vision QA](Computer-Vision-ITAI1378/Capstone-Concept/LabRack-Vision-QA/) | Proposed YOLO11/YOLO11-seg assistant for staged laboratory rack checks | Midterm proposal; implementation is explicitly marked as in progress |
+| [L02: Image Processing Fundamentals](Computer-Vision-ITAI1378/Projects/L02-Image-Processing-Fundamentals/) | Pixel matrices, color channels, convolution, histograms, transformations, and quantitative experiments | Executed notebook with 11 visual outputs and three personal experiments |
+| [L03 Using Classic ML in Computer Vision](Computer-Vision-ITAI1378/Projects/L03-Using-Classic-ML-in-Computer-Vision/) | Classical image classification using grayscale pixels and a linear SVM | 54.7% accuracy on 3,000 held-out images; ship recall 68% |
+| [L04 Chihuahua or Muffin](Computer-Vision-ITAI1378/Projects/L04-Chihuahua-or-Muffin/) | PyTorch data pipeline and multilayer perceptron | 86.67% validation accuracy on 30 images after three epochs |
+| [L05 Chihuahua or Muffin with CNN](Computer-Vision-ITAI1378/Projects/L05-Chihuahua-or-Muffin-with-CNN/) | Convolutional image classification with augmentation | 96.67% validation accuracy on 30 images after ten epochs |
+| [Midterm: Final Project Proposal](Computer-Vision-ITAI1378/Capstone-Concept/Midterm-Final-Project-Proposal/) | Proposed YOLO11/YOLO11-seg assistant for staged laboratory rack checks | Proposal for a privacy-conscious laboratory QA workflow |
 
 See the [ITAI 1378 course overview](Computer-Vision-ITAI1378/) for the full learning sequence and [supplemental work](Computer-Vision-ITAI1378/Supplemental-Work/) for research and design assignments.
 
@@ -38,17 +39,16 @@ See the [ITAI 1378 course overview](Computer-Vision-ITAI1378/) for the full lear
 ```text
 .
 |-- README.md
-|-- SUBMISSION_CHECKLIST.md
 |-- Computer-Vision-ITAI1378/
 |   |-- README.md
 |   |-- Projects/
-|   |   |-- 01-Image-Processing-Fundamentals/
-|   |   |-- 02-CIFAR10-SVM-Classifier/
-|   |   `-- 03-Chihuahua-Muffin-Neural-Network/
+|   |   |-- L02-Image-Processing-Fundamentals/
+|   |   |-- L03-Using-Classic-ML-in-Computer-Vision/
+|   |   |-- L04-Chihuahua-or-Muffin/
+|   |   `-- L05-Chihuahua-or-Muffin-with-CNN/
 |   |-- Capstone-Concept/
-|   |   `-- LabRack-Vision-QA/
+|   |   `-- Midterm-Final-Project-Proposal/
 |   `-- Supplemental-Work/
-`-- tools/
 ```
 
 ## Reproducibility Notes

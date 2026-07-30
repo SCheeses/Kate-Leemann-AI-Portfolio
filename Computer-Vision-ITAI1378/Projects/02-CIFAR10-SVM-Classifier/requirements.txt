@@ -1,4 +1,0 @@
-numpy>=2.0
-matplotlib>=3.10
-tensorflow>=2.20
-scikit-learn>=1.6

@@ -25,6 +25,8 @@ env/
 
 # Local validation and render intermediates
 tmp/
+/output/
+/.portfolio-internal/
 
 # Editors
 .vscode/
