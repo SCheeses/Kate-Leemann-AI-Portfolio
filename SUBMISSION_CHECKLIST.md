@@ -18,12 +18,12 @@
 
 ## GitHub Publication
 
-- [ ] Create a public repository named `Kate-Leemann-AI-Portfolio`
-- [ ] Push the contents of this folder to the repository
-- [ ] Confirm the default branch is `main`
-- [ ] Open every project link from the GitHub README
-- [ ] Confirm each notebook renders on GitHub
-- [ ] Test the repository URL in a private/incognito browser window
+- [x] Create a public repository named `Kate-Leemann-AI-Portfolio`
+- [x] Push the contents of this folder to the repository
+- [x] Confirm the default branch is `main`
+- [x] Open every project link from the GitHub README
+- [x] Confirm each notebook renders on GitHub
+- [x] Test the repository URL without an authenticated GitHub session
 - [ ] Submit the functional repository URL to Canvas
 
 ## Optional Presentation

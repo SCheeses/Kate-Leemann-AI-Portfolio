@@ -60,6 +60,7 @@ See the [ITAI 1378 course overview](Computer-Vision-ITAI1378/) for the full lear
 
 ## Contact
 
+- Portfolio Repository: [Kate-Leemann-AI-Portfolio](https://github.com/SCheeses/Kate-Leemann-AI-Portfolio)
 - GitHub: [SCheeses](https://github.com/SCheeses)
 - Email: [kateleemann8@gmail.com](mailto:kateleemann8@gmail.com)
 - LinkedIn: [Kate Leemann](https://www.linkedin.com/in/kate-leemann-a21615236)
