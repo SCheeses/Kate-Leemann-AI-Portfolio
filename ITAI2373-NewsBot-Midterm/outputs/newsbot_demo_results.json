@@ -1,0 +1,608 @@
+[
+  {
+    "title": "Football club celebrates championship victory",
+    "content": "London football club Riverside United won the league championship on Saturday after defeating their rivals 3-1. Captain Daniel Reed scored two goals in the final match. The coach praised the players for their teamwork and said supporters were thrilled with the result. Thousands of fans celebrated outside the stadium. The team will begin training next month ahead of the new season.",
+    "predicted_category": "Sports",
+    "category_confidence": 0.9999534931613168,
+    "category_probabilities": {
+      "Business": 2.441557673083565e-07,
+      "Entertainment": 2.3801441702175287e-07,
+      "Politics": 1.32590357329218e-07,
+      "Sports": 0.9999534931613168,
+      "Technology": 4.589207814159529e-05
+    },
+    "entities": [
+      {
+        "text": "London",
+        "label": "GPE",
+        "start": 47,
+        "end": 53,
+        "description": "Countries, cities, states"
+      },
+      {
+        "text": "Riverside United",
+        "label": "PERSON",
+        "start": 68,
+        "end": 84,
+        "description": "People, including fictional"
+      },
+      {
+        "text": "Saturday",
+        "label": "DATE",
+        "start": 116,
+        "end": 124,
+        "description": "Absolute or relative dates or periods"
+      },
+      {
+        "text": "Daniel Reed",
+        "label": "PERSON",
+        "start": 167,
+        "end": 178,
+        "description": "People, including fictional"
+      },
+      {
+        "text": "next month",
+        "label": "DATE",
+        "start": 395,
+        "end": 405,
+        "description": "Absolute or relative dates or periods"
+      },
+      {
+        "text": "the new season",
+        "label": "DATE",
+        "start": 415,
+        "end": 429,
+        "description": "Absolute or relative dates or periods"
+      }
+    ],
+    "sentiment": {
+      "neg": 0.03,
+      "neu": 0.641,
+      "pos": 0.329,
+      "compound": 0.9779,
+      "sentiment_label": "positive"
+    },
+    "emotion_cues_per_1000_tokens": {
+      "joy": 46.15384615384615,
+      "sadness": 0.0,
+      "anger": 0.0,
+      "fear": 0.0,
+      "surprise": 0.0,
+      "trust": 0.0
+    },
+    "emotion_matches": {
+      "joy": {
+        "celebrate": 2,
+        "thrill": 1
+      },
+      "sadness": {},
+      "anger": {},
+      "fear": {},
+      "surprise": {},
+      "trust": {}
+    },
+    "pos_proportions": {
+      "NOUN": 0.3283582089552239,
+      "VERB": 0.14925373134328357,
+      "PROPN": 0.1044776119402985,
+      "DET": 0.11940298507462686,
+      "ADP": 0.11940298507462686,
+      "PRON": 0.029850746268656716,
+      "NUM": 0.04477611940298507,
+      "ADJ": 0.04477611940298507,
+      "CCONJ": 0.014925373134328358,
+      "AUX": 0.029850746268656716,
+      "ADV": 0.014925373134328358
+    },
+    "sentence_count": 6,
+    "candidate_relationships": [
+      {
+        "subject": "Football club",
+        "verb": "celebrate",
+        "object": "championship victory",
+        "negated": false,
+        "sentence": "Football club celebrates championship victory."
+      },
+      {
+        "subject": "London football club Riverside United",
+        "verb": "win",
+        "object": "the league championship",
+        "negated": false,
+        "sentence": "London football club Riverside United won the league championship on Saturday after defeating their rivals 3-1."
+      },
+      {
+        "subject": "Captain Daniel Reed",
+        "verb": "score",
+        "object": "two goals",
+        "negated": false,
+        "sentence": "Captain Daniel Reed scored two goals in the final match."
+      },
+      {
+        "subject": "The coach",
+        "verb": "praise",
+        "object": "the players",
+        "negated": false,
+        "sentence": "The coach praised the players for their teamwork and said supporters were thrilled with the result."
+      }
+    ],
+    "candidate_semantic_roles": [
+      {
+        "action": "celebrate",
+        "candidate_agent": [
+          "Football club"
+        ],
+        "candidate_patient": [
+          "championship victory"
+        ],
+        "candidate_recipient": [],
+        "candidate_location": [],
+        "voice": "active",
+        "negated": false,
+        "sentence": "Football club celebrates championship victory."
+      },
+      {
+        "action": "win",
+        "candidate_agent": [
+          "London football club Riverside United"
+        ],
+        "candidate_patient": [
+          "the league championship"
+        ],
+        "candidate_recipient": [],
+        "candidate_location": [],
+        "voice": "active",
+        "negated": false,
+        "sentence": "London football club Riverside United won the league championship on Saturday after defeating their rivals 3-1."
+      },
+      {
+        "action": "defeat",
+        "candidate_agent": [],
+        "candidate_patient": [
+          "their rivals"
+        ],
+        "candidate_recipient": [],
+        "candidate_location": [],
+        "voice": "active",
+        "negated": false,
+        "sentence": "London football club Riverside United won the league championship on Saturday after defeating their rivals 3-1."
+      },
+      {
+        "action": "score",
+        "candidate_agent": [
+          "Captain Daniel Reed"
+        ],
+        "candidate_patient": [
+          "two goals"
+        ],
+        "candidate_recipient": [],
+        "candidate_location": [
+          "the final match"
+        ],
+        "voice": "active",
+        "negated": false,
+        "sentence": "Captain Daniel Reed scored two goals in the final match."
+      },
+      {
+        "action": "praise",
+        "candidate_agent": [
+          "The coach"
+        ],
+        "candidate_patient": [
+          "the players"
+        ],
+        "candidate_recipient": [],
+        "candidate_location": [],
+        "voice": "active",
+        "negated": false,
+        "sentence": "The coach praised the players for their teamwork and said supporters were thrilled with the result."
+      },
+      {
+        "action": "thrill",
+        "candidate_agent": [],
+        "candidate_patient": [
+          "supporters"
+        ],
+        "candidate_recipient": [],
+        "candidate_location": [],
+        "voice": "passive",
+        "negated": false,
+        "sentence": "The coach praised the players for their teamwork and said supporters were thrilled with the result."
+      },
+      {
+        "action": "celebrate",
+        "candidate_agent": [
+          "Thousands"
+        ],
+        "candidate_patient": [],
+        "candidate_recipient": [],
+        "candidate_location": [],
+        "voice": "active",
+        "negated": false,
+        "sentence": "Thousands of fans celebrated outside the stadium."
+      },
+      {
+        "action": "begin",
+        "candidate_agent": [
+          "The team"
+        ],
+        "candidate_patient": [],
+        "candidate_recipient": [],
+        "candidate_location": [],
+        "voice": "active",
+        "negated": false,
+        "sentence": "The team will begin training next month ahead of the new season."
+      }
+    ],
+    "top_tfidf_terms": [
+      {
+        "term": "football club",
+        "score": 0.38079274424630144
+      },
+      {
+        "term": "celebrate",
+        "score": 0.3256257123503231
+      },
+      {
+        "term": "championship",
+        "score": 0.26141462135135257
+      },
+      {
+        "term": "football",
+        "score": 0.24525038433859606
+      },
+      {
+        "term": "club",
+        "score": 0.2190744814649066
+      },
+      {
+        "term": "stadium",
+        "score": 0.17908341112274656
+      },
+      {
+        "term": "train",
+        "score": 0.17511471384332886
+      },
+      {
+        "term": "praise",
+        "score": 0.17152459045670188
+      },
+      {
+        "term": "captain",
+        "score": 0.16621047211168066
+      },
+      {
+        "term": "next month",
+        "score": 0.16523203306763717
+      }
+    ],
+    "insights": [
+      "Suggested news category: Sports.",
+      "VADER textual tone: positive.",
+      "Detected 6 required-type entity mentions."
+    ]
+  },
+  {
+    "title": "Software company introduces a security platform",
+    "content": "Northstar Software introduced a new computer security platform in Boston on Monday. The company said its software detects suspicious network traffic and helps users protect their data. Engineer Maya Chen demonstrated the application and explained how administrators can install updates across multiple devices. The company invested $5 million in development. Independent testing has not yet established how well the system performs against unfamiliar threats.",
+    "predicted_category": "Technology",
+    "category_confidence": 0.9755717065102133,
+    "category_probabilities": {
+      "Business": 0.018725101708839068,
+      "Entertainment": 0.0013654474007430775,
+      "Politics": 0.003636258895077254,
+      "Sports": 0.0007014854851272928,
+      "Technology": 0.9755717065102133
+    },
+    "entities": [
+      {
+        "text": "Software",
+        "label": "ORG",
+        "start": 0,
+        "end": 8,
+        "description": "Companies, agencies, institutions, etc."
+      },
+      {
+        "text": "Northstar Software",
+        "label": "ORG",
+        "start": 49,
+        "end": 67,
+        "description": "Companies, agencies, institutions, etc."
+      },
+      {
+        "text": "Boston",
+        "label": "GPE",
+        "start": 115,
+        "end": 121,
+        "description": "Countries, cities, states"
+      },
+      {
+        "text": "Monday",
+        "label": "DATE",
+        "start": 125,
+        "end": 131,
+        "description": "Absolute or relative dates or periods"
+      },
+      {
+        "text": "Maya Chen",
+        "label": "PERSON",
+        "start": 243,
+        "end": 252,
+        "description": "People, including fictional"
+      },
+      {
+        "text": "$5 million",
+        "label": "MONEY",
+        "start": 381,
+        "end": 391,
+        "description": "Monetary values, including unit"
+      }
+    ],
+    "sentiment": {
+      "neg": 0.068,
+      "neu": 0.778,
+      "pos": 0.154,
+      "compound": 0.7003,
+      "sentiment_label": "positive"
+    },
+    "emotion_cues_per_1000_tokens": {
+      "joy": 0.0,
+      "sadness": 0.0,
+      "anger": 0.0,
+      "fear": 0.0,
+      "surprise": 0.0,
+      "trust": 0.0
+    },
+    "emotion_matches": {
+      "joy": {},
+      "sadness": {},
+      "anger": {},
+      "fear": {},
+      "surprise": {},
+      "trust": {}
+    },
+    "pos_proportions": {
+      "NOUN": 0.30985915492957744,
+      "VERB": 0.16901408450704225,
+      "DET": 0.08450704225352113,
+      "PROPN": 0.09859154929577464,
+      "ADJ": 0.07042253521126761,
+      "ADP": 0.07042253521126761,
+      "PRON": 0.028169014084507043,
+      "CCONJ": 0.028169014084507043,
+      "SCONJ": 0.028169014084507043,
+      "AUX": 0.028169014084507043,
+      "SYM": 0.014084507042253521,
+      "NUM": 0.028169014084507043,
+      "PART": 0.014084507042253521,
+      "ADV": 0.028169014084507043
+    },
+    "sentence_count": 6,
+    "candidate_relationships": [
+      {
+        "subject": "Software company",
+        "verb": "introduce",
+        "object": "a security platform",
+        "negated": false,
+        "sentence": "Software company introduces a security platform."
+      },
+      {
+        "subject": "Northstar Software",
+        "verb": "introduce",
+        "object": "a new computer security platform",
+        "negated": false,
+        "sentence": "Northstar Software introduced a new computer security platform in Boston on Monday."
+      },
+      {
+        "subject": "users",
+        "verb": "protect",
+        "object": "their data",
+        "negated": false,
+        "sentence": "The company said its software detects suspicious network traffic and helps users protect their data."
+      },
+      {
+        "subject": "Engineer Maya Chen",
+        "verb": "demonstrate",
+        "object": "the application",
+        "negated": false,
+        "sentence": "Engineer Maya Chen demonstrated the application and explained how administrators can install updates across multiple devices."
+      },
+      {
+        "subject": "administrators",
+        "verb": "install",
+        "object": "updates",
+        "negated": false,
+        "sentence": "Engineer Maya Chen demonstrated the application and explained how administrators can install updates across multiple devices."
+      },
+      {
+        "subject": "The company",
+        "verb": "invest",
+        "object": "million",
+        "negated": false,
+        "sentence": "The company invested $5 million in development."
+      }
+    ],
+    "candidate_semantic_roles": [
+      {
+        "action": "introduce",
+        "candidate_agent": [
+          "Software company"
+        ],
+        "candidate_patient": [
+          "a security platform"
+        ],
+        "candidate_recipient": [],
+        "candidate_location": [],
+        "voice": "active",
+        "negated": false,
+        "sentence": "Software company introduces a security platform."
+      },
+      {
+        "action": "introduce",
+        "candidate_agent": [
+          "Northstar Software"
+        ],
+        "candidate_patient": [
+          "a new computer security platform"
+        ],
+        "candidate_recipient": [],
+        "candidate_location": [
+          "Boston"
+        ],
+        "voice": "active",
+        "negated": false,
+        "sentence": "Northstar Software introduced a new computer security platform in Boston on Monday."
+      },
+      {
+        "action": "say",
+        "candidate_agent": [
+          "The company"
+        ],
+        "candidate_patient": [],
+        "candidate_recipient": [],
+        "candidate_location": [],
+        "voice": "active",
+        "negated": false,
+        "sentence": "The company said its software detects suspicious network traffic and helps users protect their data."
+      },
+      {
+        "action": "detect",
+        "candidate_agent": [],
+        "candidate_patient": [
+          "suspicious network traffic"
+        ],
+        "candidate_recipient": [],
+        "candidate_location": [],
+        "voice": "active",
+        "negated": false,
+        "sentence": "The company said its software detects suspicious network traffic and helps users protect their data."
+      },
+      {
+        "action": "protect",
+        "candidate_agent": [
+          "users"
+        ],
+        "candidate_patient": [
+          "their data"
+        ],
+        "candidate_recipient": [],
+        "candidate_location": [],
+        "voice": "active",
+        "negated": false,
+        "sentence": "The company said its software detects suspicious network traffic and helps users protect their data."
+      },
+      {
+        "action": "demonstrate",
+        "candidate_agent": [
+          "Engineer Maya Chen"
+        ],
+        "candidate_patient": [
+          "the application"
+        ],
+        "candidate_recipient": [],
+        "candidate_location": [],
+        "voice": "active",
+        "negated": false,
+        "sentence": "Engineer Maya Chen demonstrated the application and explained how administrators can install updates across multiple devices."
+      },
+      {
+        "action": "install",
+        "candidate_agent": [
+          "administrators"
+        ],
+        "candidate_patient": [
+          "updates"
+        ],
+        "candidate_recipient": [],
+        "candidate_location": [],
+        "voice": "active",
+        "negated": false,
+        "sentence": "Engineer Maya Chen demonstrated the application and explained how administrators can install updates across multiple devices."
+      },
+      {
+        "action": "invest",
+        "candidate_agent": [
+          "The company"
+        ],
+        "candidate_patient": [
+          "million"
+        ],
+        "candidate_recipient": [],
+        "candidate_location": [],
+        "voice": "active",
+        "negated": false,
+        "sentence": "The company invested $5 million in development."
+      },
+      {
+        "action": "establish",
+        "candidate_agent": [
+          "Independent testing"
+        ],
+        "candidate_patient": [],
+        "candidate_recipient": [],
+        "candidate_location": [],
+        "voice": "active",
+        "negated": true,
+        "sentence": "Independent testing has not yet established how well the system performs against unfamiliar threats."
+      },
+      {
+        "action": "perform",
+        "candidate_agent": [
+          "the system"
+        ],
+        "candidate_patient": [],
+        "candidate_recipient": [],
+        "candidate_location": [],
+        "voice": "active",
+        "negated": false,
+        "sentence": "Independent testing has not yet established how well the system performs against unfamiliar threats."
+      }
+    ],
+    "top_tfidf_terms": [
+      {
+        "term": "platform",
+        "score": 0.2912201657588244
+      },
+      {
+        "term": "software",
+        "score": 0.2884294901638246
+      },
+      {
+        "term": "introduce",
+        "score": 0.25189900068812365
+      },
+      {
+        "term": "security",
+        "score": 0.2082622796413126
+      },
+      {
+        "term": "multiple",
+        "score": 0.2046205872783737
+      },
+      {
+        "term": "install",
+        "score": 0.20122740798864533
+      },
+      {
+        "term": "engineer",
+        "score": 0.19018544708280696
+      },
+      {
+        "term": "boston",
+        "score": 0.18788778303723175
+      },
+      {
+        "term": "company",
+        "score": 0.18485443170891
+      },
+      {
+        "term": "company say",
+        "score": 0.1799435521218111
+      }
+    ],
+    "insights": [
+      "Suggested news category: Technology.",
+      "VADER textual tone: positive.",
+      "Detected 6 required-type entity mentions."
+    ]
+  }
+]

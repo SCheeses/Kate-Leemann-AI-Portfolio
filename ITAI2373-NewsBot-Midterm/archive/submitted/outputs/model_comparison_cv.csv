@@ -1,0 +1,4 @@
+Model,CV Macro F1,CV F1 Std,CV Accuracy,Training Seconds,Best Parameters
+Logistic Regression,0.9748696586548565,0.006706844080011272,0.9756944444444445,15.929986632000691,"{'tfidf__ngram_range': (1, 1), 'tfidf__sublinear_tf': True}"
+SVM,0.9746107208028713,0.008843430114580773,0.9756944444444443,121.62184117199922,"{'tfidf__ngram_range': (1, 1), 'tfidf__sublinear_tf': True}"
+Naive Bayes,0.9684837590575258,0.006806614570256081,0.9696180555555555,18.90332044800016,"{'tfidf__ngram_range': (1, 2), 'tfidf__sublinear_tf': True}"

@@ -1,0 +1,11 @@
+data/
+BBC News Train.csv
+newsbot_dataset.csv
+newsbot_processed.csv
+outputs/test_predictions.csv
+outputs/subject_verb_object_relationships.csv
+newsbot_outputs.zip
+public_outputs/
+.venv/
+.ipynb_checkpoints/
+__pycache__/

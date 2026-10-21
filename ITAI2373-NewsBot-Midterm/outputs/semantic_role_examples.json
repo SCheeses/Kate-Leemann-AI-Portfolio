@@ -1,0 +1,68 @@
+{
+  "The detective gave the evidence to the lawyer in the courtroom.": [
+    {
+      "action": "give",
+      "candidate_agent": [
+        "The detective"
+      ],
+      "candidate_patient": [
+        "the evidence"
+      ],
+      "candidate_recipient": [
+        "the lawyer"
+      ],
+      "candidate_location": [],
+      "voice": "active",
+      "negated": false,
+      "sentence": "The detective gave the evidence to the lawyer in the courtroom."
+    }
+  ],
+  "The startup was acquired by the company.": [
+    {
+      "action": "acquire",
+      "candidate_agent": [
+        "the company"
+      ],
+      "candidate_patient": [
+        "The startup"
+      ],
+      "candidate_recipient": [],
+      "candidate_location": [],
+      "voice": "passive",
+      "negated": false,
+      "sentence": "The startup was acquired by the company."
+    }
+  ],
+  "The company did not acquire the startup.": [
+    {
+      "action": "acquire",
+      "candidate_agent": [
+        "The company"
+      ],
+      "candidate_patient": [
+        "the startup"
+      ],
+      "candidate_recipient": [],
+      "candidate_location": [],
+      "voice": "active",
+      "negated": true,
+      "sentence": "The company did not acquire the startup."
+    }
+  ],
+  "The key opened the door.": [
+    {
+      "action": "open",
+      "candidate_agent": [
+        "The key"
+      ],
+      "candidate_patient": [
+        "the door"
+      ],
+      "candidate_recipient": [],
+      "candidate_location": [],
+      "voice": "active",
+      "negated": false,
+      "sentence": "The key opened the door."
+    }
+  ]
+}

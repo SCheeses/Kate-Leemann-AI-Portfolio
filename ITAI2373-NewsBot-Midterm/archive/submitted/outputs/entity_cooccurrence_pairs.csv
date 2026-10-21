@@ -1,0 +1,95 @@
+entity_1,entity_2,shared_articles
+uk (GPE),britain (GPE),71
+uk (GPE),london (GPE),65
+us (GPE),uk (GPE),64
+tony blair (PERSON),blair (PERSON),51
+britain (GPE),tony blair (PERSON),37
+us (GPE),new york (GPE),31
+uk (GPE),bbc (ORG),30
+france (GPE),scotland (GPE),29
+london (GPE),britain (GPE),29
+uk (GPE),tony blair (PERSON),29
+britain (GPE),blair (PERSON),29
+france (GPE),england (GPE),28
+england (GPE),scotland (GPE),28
+tony blair (PERSON),michael howard (PERSON),28
+uk (GPE),france (GPE),25
+britain (GPE),bbc (ORG),24
+us (GPE),china (GPE),24
+us (GPE),london (GPE),23
+uk (GPE),blair (PERSON),22
+britain (GPE),michael howard (PERSON),22
+blair (PERSON),michael howard (PERSON),21
+uk (GPE),michael howard (PERSON),21
+us (GPE),britain (GPE),21
+us (GPE),japan (GPE),21
+london (GPE),bbc (ORG),20
+london (GPE),tony blair (PERSON),20
+us (GPE),bbc (ORG),19
+uk (GPE),japan (GPE),18
+britain (GPE),france (GPE),16
+bbc (ORG),england (GPE),16
+london (GPE),new york (GPE),16
+london (GPE),france (GPE),14
+uk (GPE),don (PERSON),14
+us (GPE),france (GPE),14
+britain (GPE),don (PERSON),14
+london (GPE),england (GPE),14
+bbc (ORG),tony blair (PERSON),13
+britain (GPE),england (GPE),13
+us (GPE),don (PERSON),12
+uk (GPE),new york (GPE),12
+bbc (ORG),michael howard (PERSON),11
+bbc (ORG),don (PERSON),11
+uk (GPE),china (GPE),11
+japan (GPE),china (GPE),10
+london (GPE),blair (PERSON),10
+us (GPE),blair (PERSON),9
+bbc (ORG),blair (PERSON),9
+uk (GPE),england (GPE),9
+london (GPE),scotland (GPE),9
+london (GPE),china (GPE),9
+uk (GPE),scotland (GPE),8
+don (PERSON),michael howard (PERSON),8
+bbc (ORG),france (GPE),8
+london (GPE),michael howard (PERSON),8
+england (GPE),don (PERSON),7
+britain (GPE),scotland (GPE),7
+us (GPE),tony blair (PERSON),7
+bbc (ORG),new york (GPE),6
+france (GPE),japan (GPE),6
+britain (GPE),japan (GPE),6
+blair (PERSON),scotland (GPE),5
+tony blair (PERSON),don (PERSON),5
+france (GPE),china (GPE),5
+bbc (ORG),scotland (GPE),5
+britain (GPE),new york (GPE),5
+blair (PERSON),don (PERSON),5
+london (GPE),don (PERSON),5
+new york (GPE),china (GPE),4
+us (GPE),michael howard (PERSON),4
+new york (GPE),don (PERSON),4
+england (GPE),tony blair (PERSON),4
+us (GPE),england (GPE),3
+scotland (GPE),michael howard (PERSON),3
+france (GPE),tony blair (PERSON),3
+london (GPE),japan (GPE),3
+bbc (ORG),china (GPE),3
+bbc (ORG),japan (GPE),3
+britain (GPE),china (GPE),3
+tony blair (PERSON),scotland (GPE),3
+don (PERSON),scotland (GPE),3
+england (GPE),michael howard (PERSON),3
+blair (PERSON),china (GPE),2
+france (GPE),don (PERSON),2
+france (GPE),blair (PERSON),2
+france (GPE),new york (GPE),2
+england (GPE),new york (GPE),2
+england (GPE),blair (PERSON),2
+tony blair (PERSON),china (GPE),2
+us (GPE),scotland (GPE),1
+tony blair (PERSON),new york (GPE),1
+england (GPE),japan (GPE),1
+new york (GPE),blair (PERSON),1
+don (PERSON),china (GPE),1
+scotland (GPE),japan (GPE),1

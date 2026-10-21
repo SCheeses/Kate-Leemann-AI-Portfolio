@@ -1,0 +1,12 @@
+{
+  "source": "BBC News Classification, Kaggle learn-ai-bbc competition",
+  "filename": "BBC News Train.csv",
+  "sha256": "f56a65dab2ea728505a639d2186a2b2f1c0939f28e8e89b5ed1c1fe9520b1323",
+  "original_rows": 1490,
+  "exact_duplicate_texts": 50,
+  "retained_rows": 1440,
+  "split_seed": 42,
+  "test_fraction": 0.2,
+  "test_rows": 288,
+  "redistributed": false
+}
